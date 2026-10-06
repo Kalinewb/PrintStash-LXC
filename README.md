@@ -17,10 +17,6 @@ The installer uses the standard [community-scripts](https://github.com/community
 
 ## Update
 
-From the Proxmox host:
-
-```bash
-pct exec <ctid> -- bash -c 'cd /opt/printstash && docker compose pull && docker compose up -d'
-```
+Run `update` inside the container.
 
 Unofficial; not affiliated with PrintStash. Script is MIT licensed.
